@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoMoon } from "react-icons/io5";
 
 const DarkMode = () => {

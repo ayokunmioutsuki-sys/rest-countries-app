@@ -7,12 +7,8 @@ interface countryDetailsProps {
   details: Country[];
 }
 
-type CountryParams = {
-  countryName?: string;
-};
-
 const CountryDetails: React.FC<countryDetailsProps> = ({ details }) => {
-  const { countryName } = useParams<CountryParams>();
+  const { countryName } = useParams();
   const { state } = useLocation();
 
   const findCountry: Country =
