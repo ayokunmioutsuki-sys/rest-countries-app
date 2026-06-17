@@ -19,8 +19,8 @@ const HomePage: React.FC<HomePageProps> = ({
   dropDrownFn,
 }) => {
   return (
-    <div className="px-20 py-12 bg-body">
-      <div className="flex justify-between items-center ">
+    <div className="px-4 md:px-20 py-6 md:py-12 bg-body">
+      <div className="flex flex-col md:flex-row gap-6 md:justify-between md:items-center ">
         <SearchBar searchFn={searchFn} />
         <DropDown dropDrownFn={dropDrownFn} />
       </div>

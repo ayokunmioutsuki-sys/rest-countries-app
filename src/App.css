@@ -24,3 +24,13 @@ body {
 .text-color {
   color: var(--Text-color);
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar-title {
+    font-size: 1rem;
+  }
+}
