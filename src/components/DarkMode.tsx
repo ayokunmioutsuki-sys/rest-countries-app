@@ -13,7 +13,7 @@ const DarkMode = () => {
     document.body.classList.add("light-mode");
   }
 
-  const handleThemeToggle = (_e: React.MouseEvent<HTMLDivElement>) => {
+  const handleThemeToggle = () => {
     document.body.classList.toggle("light-mode");
     setDarkMode((prev) => !prev);
     const isLight = document.body.classList.contains("light-mode");
